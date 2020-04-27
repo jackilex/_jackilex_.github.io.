@@ -1,0 +1,116 @@
+html{
+    font-size: 16px;
+    
+}
+body,nav.navbar,.jumbotron{
+    background: linear-gradient(to right, #780206 0%, #061161 100%) !important;
+    
+    
+}
+.jumbotron{
+    font-family: 'Bangers', cursive;
+       
+}
+#welcome{
+    font-weight: 6rem;
+}
+
+#commet{
+    font-weight: 1.5rem;
+}
+
+main,article,aside{
+    font-family: 'Libre Baskerville', serif
+}
+
+h1,p{
+    color: white;
+}
+
+nav{
+    font-size: 1.5rem;
+    
+}
+
+.navbar-brand{
+    background-color: orange !important;
+    border-radius:15px 50px;
+    padding: 2px 8px;
+} 
+
+ul.navbar-nav{
+    background-color: orange !important;
+    border-radius: 15px;
+}
+
+
+a#email:hover{
+    color: black;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+a#linkein:hover{
+    color: black;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.card-body{
+    background-color:lightsteelblue;
+}
+
+#cardcol,#cordcol2,#cardcol3,#aboutme{ 
+    transition: all .2s ease-in-out; 
+}
+
+#cardcol:hover,#cardcol2:hover,#cardcol3:hover,#aboutme:hover{
+    transform: scale(1.1);
+    font-size: 120%;       
+    
+}
+
+p#aboutme:hover{
+    font-size: 1.3rem;
+}
+
+#card1:hover,#card2:hover,#card3:hover{
+    background-color: #FF7F50;
+}
+
+.card{
+    border-color:black !important;
+    border-width: 2px !important;
+}
+
+footer{
+    background-color: lightslategray;
+    color: white;
+}
+
+.nav-link:hover{
+    font: red;
+}
+/* body{
+    background-image: url("../../assets/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+} */
+
+/* #main{
+    
+    height: 300px;
+    width: auto;
+} */
+
+/* #photo{
+    max-width: 250px;
+    max-height: 250px;
+} */
+
+/* .card-img-top{
+    height: 100% !important;
+    width: auto !important;
+} */
