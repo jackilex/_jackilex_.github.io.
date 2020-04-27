@@ -1,5 +1,15 @@
 
+Sope: Create a Portfolio 
 
+Details:
+- Portfolio will have your Bio.
+- Multiple HTML files
+- CSS File
+- Links to profiles
+
+
+HTML
+-Semantic HTML
 
 
 
