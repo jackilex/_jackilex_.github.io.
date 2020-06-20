@@ -1,9 +1,9 @@
 html{
-    font-size: 16px;
-    
+    font-size: 16px; 
 }
 body,nav.navbar,.jumbotron{
-    background: linear-gradient(to right, #780206 0%, #061161 100%) !important;
+    /* background: linear-gradient(to right, #780206 0%, #061161 100%) !important; */
+    background-color: coral !important;
     
     
 }
@@ -24,7 +24,7 @@ main,article,aside{
 }
 
 h1,p{
-    color: white;
+    color: black;
 }
 
 nav{
@@ -33,13 +33,13 @@ nav{
 }
 
 .navbar-brand{
-    background-color: orange !important;
+    background-color: lightskyblue !important;
     border-radius:15px 50px;
     padding: 2px 8px;
 } 
 
 ul.navbar-nav{
-    background-color: orange !important;
+    background-color: lightskyblue !important;
     border-radius: 15px;
 }
 
@@ -64,15 +64,15 @@ a#linkein:hover{
     transition: all .2s ease-in-out; 
 }
 
-#cardcol:hover,#cardcol2:hover,#cardcol3:hover,#aboutme:hover{
+#cardcol:hover,#cardcol2:hover,#cardcol3:hover{
     transform: scale(1.1);
     font-size: 120%;       
     
 }
 
-p#aboutme:hover{
+/* p#aboutme:hover{
     font-size: 1.3rem;
-}
+} */
 
 #card1:hover,#card2:hover,#card3:hover{
     background-color: #FF7F50;
@@ -91,26 +91,17 @@ footer{
 .nav-link:hover{
     font: red;
 }
-/* body{
-    background-image: url("../../assets/background4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-} */
 
-/* #main{
-    
-    height: 300px;
-    width: auto;
-} */
+#sc{
+    border: 2px solid black;
+border-radius: 25px;
+margin: 10px 0px 10px 0px;
+background-color: blanchedalmond;
+}
 
-/* #photo{
-    max-width: 250px;
-    max-height: 250px;
-} */
 
-/* .card-img-top{
-    height: 100% !important;
-    width: auto !important;
-} */
+#gif{
+height: 250px;
+width: auto;
+padding-bottom: 5px;
+}
